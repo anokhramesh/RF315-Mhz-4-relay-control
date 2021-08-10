@@ -1,4 +1,13 @@
-//In this Project We will controll 4 relays Remotely with the Help of Radio Frequency module (Rf 315 mhz)and its Remote control
+//In this Project We will controll 4 relays Remotely with the Help of Radio Frequency (YK04-Rf 315 or 433 Mhz Receiver Module)and its Remote control
+// Sketch Modified by Rameshkumar,Anokhautomation,anokhramesh@gmail.com,+971557407961,www.anokhautomation.blogspot.com
+//Remote Button-B-RF Receiver  module pin-D0- Arduino Input pin D3
+//Remote Button-D-RF Receiver  module pin-D1- Arduino Input pin D5
+//Remote Button-A-RF Receiver  module pin-D2- Arduino  Input pin D2
+//Remote Button-C-RF Receiver  module pin-D3- Arduino Input pin D4
+//Arduino Output Pin D09-  Relay Module IN1
+//Arduino Output Pin D10- Relay Module IN2
+//Arduino Output Pin D11- Relay Module IN3
+//Arduino Output Pin D12- Relay Module IN4
 
 // initializing pin numbers:
 const int buttonPin1 = 2;   // Connect D3 pin of RF Module to Arduino Pin#2
